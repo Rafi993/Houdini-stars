@@ -11,4 +11,13 @@ body,
   background: paint(stars), #282828;
   --star-count: 3500;
   --star-max-size: 0.5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  color: #ccc;
 }
