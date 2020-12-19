@@ -1,0 +1,14 @@
+html,
+body,
+.container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: paint(stars), #282828;
+  --star-count: 3500;
+  --star-max-size: 0.5;
+}
